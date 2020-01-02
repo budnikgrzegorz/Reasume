@@ -24,8 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "../cv/node_modules/bootstrap/dist/css/bootstrap.min.css"
+              "../Reasume/src/styles.css",
+              "../Reasume/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           },
