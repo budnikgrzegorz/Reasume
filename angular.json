@@ -25,9 +25,11 @@
             ],
             "styles": [
               "../Reasume/src/styles.css",
-              "../Reasume/node_modules/bootstrap/dist/css/bootstrap.min.css"
-            ],
-            "scripts": []
+              "../Reasume/node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/quill/dist/quill.core.css",
+              "./node_modules/quill/dist/quill.snow.css"
+             ],
+            "scripts": ["./node_modules/quill/dist/quill.js"]
           },
           "configurations": {
             "production": {
@@ -87,7 +89,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "../Reasume/node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": []
           }
