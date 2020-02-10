@@ -1,0 +1,13 @@
+
+
+<div class="container-fluid p-0" [@routeAnimations]="o && o.activatedRouteData
+      && o.activatedRouteData['animation']">
+
+      <app-navigation></app-navigation>
+
+<router-outlet #o="outlet"></router-outlet>
+
+</div>
+
+
+
